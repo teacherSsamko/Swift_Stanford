@@ -27,7 +27,7 @@ struct CardView: View {
     
     var body: some View {
         ZStack() {
-            if card.isFaceup {
+            if card.isFaceUp {
                 RoundedRectangle(cornerRadius: 10.0)
                     .fill(Color.white)
                 RoundedRectangle(cornerRadius: 10.0)
